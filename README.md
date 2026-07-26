@@ -38,18 +38,24 @@ The project demonstrates the complete pipeline of a Computer Vision application 
 ## 📂 Project Structure
 AI-Image-Classifier/
 │
-├── app.py
-├── train_model.py
-├── model.h5
-├── requirements.txt
+├── app.py # Flask application for image prediction
+├── train_model.py # CNN model training script
+├── model.h5 # Trained CNN model
+├── requirements.txt # Project dependencies
+├── README.md # Project documentation
 │
-├── static/
-│ ├── style.css
+├── static/ # Static files
+│ ├── style.css # Dashboard styling
+│ └── uploads/ # Uploaded images (runtime)
 │
-├── templates/
-│ └── index.html
+├── templates/ # HTML templates
+│ └── index.html # Main dashboard interface
 │
-└── dataset/
+└── dataset/ # Training dataset
+├── cat/
+├── dog/
+├── horse/
+└── lion/
 
 ## ⚙️ Installation & Setup
 
