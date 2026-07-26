@@ -77,16 +77,16 @@ http://127.0.0.1:5000
 
 ## 📌 Key Learnings
 
-Implemented CNN architecture for image classification
-Learned image preprocessing techniques
-Applied data augmentation
-Deployed Deep Learning model using Flask
-Built an end-to-end Computer Vision application
+1. Implemented CNN architecture for image classification
+2. Learned image preprocessing techniques
+3. Applied data augmentation
+4. Deployed Deep Learning model using Flask
+5. Built an end-to-end Computer Vision application
 
 ## 🔮 Future Improvements
-Improve model accuracy with transfer learning
-Add more animal categories
-Deploy the application on cloud platforms
+1. Improve model accuracy with transfer learning
+2. Add more animal categories
+3. Deploy the application on cloud platforms
 
 ##👩‍💻 Author
 
