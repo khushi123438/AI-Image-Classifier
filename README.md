@@ -88,7 +88,7 @@ http://127.0.0.1:5000
 2. Add more animal categories
 3. Deploy the application on cloud platforms
 
-##👩‍💻 Author
+## 👩‍💻 Author
 
 Khushi Pandey
 
