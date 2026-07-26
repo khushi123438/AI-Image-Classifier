@@ -36,3 +36,60 @@ The project demonstrates the complete pipeline of a Computer Vision application 
 6. Integration with Flask web application
 
 ## 📂 Project Structure
+AI-Image-Classifier/
+│
+├── app.py
+├── train_model.py
+├── model.h5
+├── requirements.txt
+│
+├── static/
+│ ├── style.css
+│
+├── templates/
+│ └── index.html
+│
+└── dataset/
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/khushi123438/AI-Image-Classifier.git
+
+Install dependencies:
+
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```
+python app.py
+```
+
+Open in browser:
+
+```
+http://127.0.0.1:5000
+```
+
+## 📌 Key Learnings
+
+Implemented CNN architecture for image classification
+Learned image preprocessing techniques
+Applied data augmentation
+Deployed Deep Learning model using Flask
+Built an end-to-end Computer Vision application
+
+## 🔮 Future Improvements
+Improve model accuracy with transfer learning
+Add more animal categories
+Deploy the application on cloud platforms
+
+##👩‍💻 Author
+
+Khushi Pandey
+
+⭐ If you find this project useful, consider giving it a star!
