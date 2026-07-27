@@ -36,26 +36,32 @@ The project demonstrates the complete pipeline of a Computer Vision application 
 6. Integration with Flask web application
 
 ## 📂 Project Structure
+
+```text
 AI-Image-Classifier/
 │
-├── app.py # Flask application for image prediction
-├── train_model.py # CNN model training script
-├── model.h5 # Trained CNN model
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
+├── app.py                     # Flask application for image prediction
+├── train_model.py             # CNN model training script
+├── download_dataset.py        # Downloads and prepares the dataset
+├── check_kaggle.py            # Verifies Kaggle API configuration
+├── model.h5                   # Trained CNN model
+├── labels.txt                 # Class labels
+├── requirements.txt           # Project dependencies
+├── README.md                  # Project documentation
 │
-├── static/ # Static files
-│ ├── style.css # Dashboard styling
-│ └── uploads/ # Uploaded images (runtime)
+├── dataset/                   # Animal image dataset
+│   ├── cat/
+│   ├── dog/
+│   ├── horse/
+│   └── lion/
 │
-├── templates/ # HTML templates
-│ └── index.html # Main dashboard interface
+├── static/
+│   ├── style.css              # Dashboard styling
+│   └── uploads/               # Uploaded images (runtime)
 │
-└── dataset/ # Training dataset
-├── cat/
-├── dog/
-├── horse/
-└── lion/
+└── templates/
+    └── index.html             # Main dashboard interface
+```
 
 ## ⚙️ Installation & Setup
 
